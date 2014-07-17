@@ -1,0 +1,29 @@
+<html><head>
+	<title>KB SSL Enforcer - Popup</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="popup.js"></script>
+	<style>
+	a:visited {
+		color:	#00f;
+	}
+	</style>
+</head>
+<body style="font-family:verdana; font-size:12px;">
+	<div style="width:310px;">
+		<a href="https://code.google.com/p/kbsslenforcer/" target="_blank"><img src="logo.png"/></a><br/><br/>
+		<form id="domainboxForm">
+			<div>Domain: <span id="domain"></span></div>
+			<div>Protocol: <span id="protocol"></span></div><br/>
+			<input type="button" value="Redetect" id="buttonRedetect"/> <input type="button" value="Enforce" id="buttonEnforce"/> <input type="button" value="Ignore" id="buttonIgnore"/>
+			<div style="display:none; background:#ccc; padding:10px; border-radius:4px; width:290px; text-align:center; margin-top:4px;" id="status"></div>
+		</form>
+		<br/>
+		<div><a href="#" id="pause">Pause</a></div>
+		<br/>
+		<div><a href="options.html" target="_blank" id="options">Options</a></div>
+		<br/><br/>
+		Developed by <a href="https://kbit.dk" target="_blank">KB IT</a>
+		<br/><br/>
+	</div>
+</body>
+</html>
