@@ -19,6 +19,12 @@ Installation
 
 [Install now](https://chrome.google.com/webstore/detail/flcpelgcagfhfoegekianiofphddckof)
 
+
+FAQ
+-------
+In case of any issues, please consult the [FAQ](FAQ.md).
+
+
 License
 -------
 
