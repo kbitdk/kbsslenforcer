@@ -33,6 +33,10 @@ The [manifest file](https://github.com/kbjorgensen/kbsslenforcer/blob/master/chr
 
 The project is open source and any scrutiny of the code or the extension's behavior is encouraged. If you have any comments, please open an issue on the [issue tracker](https://github.com/kbjorgensen/kbsslenforcer/issues).
 
+# Privacy policy #
+
+The extension locally stores a list of domains that have been visited, split in to an SSL enforced and an ignored list. These lists can be seen and edited on the options page. The enforced list is used for redirecting requests to use SSL. The ignored list is used to avoid autodetecting SSL every time you visit a site. No other information is saved and none of it is sent anywhere.
+
 # Still having trouble? #
 
 If you've read through the FAQ and you still have any questions or issues, then please search all issues in the issue tracker (including the closed ones) and/or perhaps open a new issue on the [issue tracker](https://github.com/kbjorgensen/kbsslenforcer/issues).
