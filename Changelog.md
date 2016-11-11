@@ -1,3 +1,7 @@
+# Version 2.0.5 #
+
+  * Updated redirect detection to reflect change in the status message.
+
 # Version 2.0.4 #
   * Added HTTP 204 No Content response status as a successful request ([issue 94](https://github.com/kbjorgensen/kbsslenforcer/issues/94))
   * Stopped redirecting sub\_frame's, since they always end up as mixed content. Either non-SSL parent frame which doesn't allow SSL sub\_frame's or SSL parent which blocks non-SSL requests before we get to redirect them ([issue 94](https://github.com/kbjorgensen/kbsslenforcer/issues/94))

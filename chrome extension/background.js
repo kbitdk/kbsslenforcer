@@ -65,7 +65,7 @@ function domainCheck(domain, inIncognitoContext) {
 
 chrome.webRequest.onHeadersReceived.addListener(function(details) {
 	// Blacklist domains that redirect from SSL to unencrypted HTTP
-	if(!pause && (new RegExp('^HTTP/1\.1 30[01237] ').test(details.statusLine))) {
+	if(!pause && (new RegExp('^HTTP/1\.1 30[01237]').test(details.statusLine))) {
 		for(var i in details.responseHeaders) {
 			if(details.responseHeaders[i].name.toLowerCase() == 'location') {
 				var headerVal = details.responseHeaders[i].value;
